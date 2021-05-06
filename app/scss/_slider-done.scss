@@ -1,0 +1,139 @@
+.slider-done {
+    position: relative;
+    padding: 100px 0 180px 0;
+    & .title-36{
+        margin-bottom: 60px;
+    }
+    
+}
+
+
+.swiper-container {
+    
+
+    // .swiper-container__img
+
+    &__img {
+        margin-bottom: 50px;
+    }
+
+    // .swiper-container__title
+
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    // .swiper-container__elements
+
+    &__elements {
+        color: #788BA8;
+        display: flex;
+        margin-bottom: 15px;
+
+    }
+
+    // .swiper-container__elements-1
+
+    &__elements-1 {
+        margin-right: 20px;
+
+        &::before{
+            content: "";
+            background-image: url(../images/dest/slider/icon/building.svg);
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            right: 0;
+            top: 4px;
+            position: relative;
+        }
+    }
+
+    // .swiper-container__elements-2
+
+    &__elements-2 {
+        &::before{
+            content: "";
+            background-image: url(../images/dest/slider/icon/brick.svg);
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            right: 0;
+            top: 4px;
+            position: relative;
+        }
+    }
+
+    // .swiper-container__text
+
+    &__text {
+    }
+}
+.swiper-wrapper {
+    
+}
+.swiper-slide {
+    display: flex;
+    justify-content: space-between;
+
+    .swiper-slide__col{
+        width: calc(33.3% - 23px);
+
+    }
+}
+.title-24 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.swiper-button-prev {
+    position: absolute;
+    background: url(../images/dest/slider/icon/prev.svg) center no-repeat;
+    background-color: #EDF2FA;
+    width: 55px;
+    height: 55px;
+    top: 120px;
+    left: 1040px;
+
+    &:after{
+        font-size: 0;
+    }
+}
+.swiper-button-next {
+    position: absolute;
+    background: url(../images/dest/slider/icon/next.svg) center no-repeat;
+    background-color: #EDF2FA;
+    width: 55px;
+    height: 55px;
+    top: 120px;
+    right: 7px;
+
+    &:after{
+        font-size: 0;
+    }
+}
+
+.slider-done {
+
+    // .slider-done__btn
+
+    &__btn {
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+.btn {
+    background-color: #3277DF;
+    padding: 15px 55px;
+    color: white;
+    text-align: center;
+}
+
+
+
