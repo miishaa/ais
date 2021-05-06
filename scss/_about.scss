@@ -1,0 +1,127 @@
+.about {
+
+    padding: 200px 0 150px 0;
+
+    // .about__row
+
+    &__row {
+        display: flex;
+        margin: 0 -30px;
+    }
+
+    // .about__item
+
+    &__item {
+        flex: 1 1 100%;
+        padding: 0 30px;
+        position: relative;
+    }
+
+    // .about__title
+
+    &__title {
+        margin-bottom: 25px;
+    }
+
+    // .about__text
+
+    &__text {
+    }
+
+    // .about__img
+
+    &__image {
+
+        &::after{
+            content: "";
+            width: 570px;
+            height: 485px;
+            border: 17px #f1f5fd solid;
+            display: inline-block;
+            position: absolute;
+            top: -46px;
+            left: 50px;
+            z-index: -1;
+        }
+
+    }
+}
+
+.quotation {
+
+    padding: 235px 0 163px 0;
+    background: url(../images/dest/about/man.png) left/auto 100% no-repeat;
+    background-color: rgb(35, 71, 126);
+    // .quotation__item
+    
+    &__row{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &__item {
+        width: 50%;
+        color: white;
+        position: relative;
+
+        &::after{
+            content: "";
+            background-image: url(../images/dest/about/quote1.svg);
+            width: 65px;
+            height: 65px;
+            display: inline-block;
+            position: absolute;
+            top: -40%;
+            right: 45%;
+        }
+    }
+
+    // .quotation__text
+
+    &__text {
+        font: 400 18px/45px 'Montserrat', Arial, sans-serif;
+        font-style: italic;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    // .quotation__author
+
+    &__author {
+        font: 700 14px/25px 'Montserrat', Arial, sans-serif;
+        font-style: italic;
+        text-align: center;
+
+    }
+}
+
+.partners {
+    padding: 150px 0 85px 0;
+
+    // .partners__row
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin: 0 -25px;
+    }
+
+    // .partners__item
+
+    &__item {
+        flex: 1 1 20em;
+        padding: 0 25px;
+        margin-bottom: 65px;
+    }
+
+    .title-36 {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+}
+.container {
+}
+
+
+

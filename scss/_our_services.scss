@@ -1,0 +1,108 @@
+.offers {
+
+    padding: 46px 0 140px 0;
+
+    .title-36{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    // .offers__row
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -16px;
+        
+    }
+
+    // .offers__item
+
+    &__item {
+        flex: 1 1 47%;
+        border: 1px solid #dee4f1;
+        padding: 0 16px;
+        padding: 97px;
+        margin: 16px;
+    }
+
+    // .offers__icon
+
+    &__icon {
+        @extend .services__icon;
+    }
+
+    // .offers__title
+
+    &__title {
+        @extend .services__title;
+    }
+
+    // .offers__text
+
+    &__text {
+        @extend .services__text;
+    }
+}
+
+
+.object {
+    background-color: #F1F5FD;
+    padding: 140px 0 140px 0;
+
+    .title-36{
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .swiper-slide {
+
+
+		// .swiper-slide__col
+
+		&__col {
+		}
+}
+}
+
+.slide {
+
+		// .slide_1
+
+		&_1 {
+		}
+}
+.swiper-container {
+
+		// .swiper-container__img
+
+		&__img {
+		}
+
+		// .swiper-container__title
+
+		&__title {
+		}
+
+		// .swiper-container__elements
+
+		&__elements {
+		}
+
+		// .swiper-container__elements-1
+
+		&__elements-1 {
+		}
+
+		// .swiper-container__elements-2
+
+		&__elements-2 {
+		}
+
+		// .swiper-container__text
+
+		&__text {
+		}
+}
+
+

@@ -1,0 +1,203 @@
+.container{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+.wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.header {
+
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+
+    &--static{
+        @extend .header;
+        position: static;
+        padding: 36px 0;
+        border-bottom: 1px solid #DEE4F1;
+        }
+    
+
+		// .header__row
+
+		&__row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+		}
+
+		// .header__logo
+
+		&__logo {
+            
+		}
+
+		// .header__nav
+
+		&__nav {
+		}
+
+		// .header__list
+
+		&__list {
+            display: flex;
+		}
+
+        &__link{
+            font: 400 14px/24px 'Montserrat', Arial, sans-serif;
+            color: white;
+            padding: 25px;
+            &--dark{
+                @extend .header__link;
+                color: #3D3D3D;
+            }
+        }
+
+		// .header__tel
+        &__call{
+
+        }
+        
+		&__tel {
+
+            &--dark{
+
+                &::before {
+                    content: "";
+                    background-image: url('../images/dest/icon/phone2.svg');
+                    width: 20px;
+                    height: 20px;
+                    display: inline-block;
+                   
+                }
+
+                & a{
+                    color: #3D3D3D;
+                    font: 400 16px/19.5px 'Montserrat', Arial, sans-serif;
+                    vertical-align: top;
+                }
+
+            }
+
+            &::before {
+                content: "";
+                background-image: url('../images/dest/icon/phone.svg');
+                width: 20px;
+                height: 20px;
+                display: inline-block;
+               
+            }
+
+            & a{
+                color: white;
+                font: 400 16px/19.5px 'Montserrat', Arial, sans-serif;
+                vertical-align: top;
+            }
+            
+		}
+
+
+        
+}
+
+
+.main__row{
+    padding: 300px 0 296px 0;
+
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.main {
+
+    background: url(../images/dest/Rectangle2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #222E3F;
+    color: white;
+    
+		// .main__title
+
+		&__title {
+            font: 400 45px/54.8px 'Montserrat', sans-serif;
+            position: relative;
+            margin-bottom: 30px;
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 5px;
+                height: 152px;
+                background: #23529A;
+                top: 5%;
+                left: -25px;
+            }
+		}
+
+		// .main__list
+
+		&__list {
+		}
+
+		// .main__item
+
+		&__item {
+            font: 400 14px/24px 'Montserrat', sans-serif;
+            position: relative;
+            margin-bottom: 23px;
+            margin-left: 80px;
+
+            &::before{
+                content: "";
+                position: absolute;
+                background-image: url(../images/dest/icon/ul.svg);
+                display: inline-block;
+                width: 41px;
+                height: 41px;
+                top: -9px;
+                left: -50px;
+            }
+		}
+}
+
+.navigation{
+    margin-top: 30px;
+
+    .navigation__item{
+        color: #3277DF;
+
+        & + .navigation__item::before,
+        & + .navigation__item--active::before{
+            padding: 0 15px;
+            content: ">";
+        }
+
+        &--active{
+            color: #788BA8;
+        }
+        
+    }
+}
+
+.title-36{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
