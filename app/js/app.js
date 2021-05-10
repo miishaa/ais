@@ -1,13 +1,9 @@
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.slider-done-slider', {
     // Optional parameters
+    slidesPerView: 3,
+    spaceBetween: 30,
     direction: 'horizontal',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+    loop: false,
   
     // Navigation arrows
     navigation: {
@@ -15,4 +11,29 @@ const swiper = new Swiper('.swiper-container', {
       prevEl: '.swiper-button-prev',
     },
 
+});
+  
+
+new Swiper('.item__swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+
+
+$(document).ready(function () {
+  $('.header__burger').click(function (event) {
+    $('.header__burger, .header__nav').toggleClass('active');
+    $('body').toggleClass('lock');
   });
+});

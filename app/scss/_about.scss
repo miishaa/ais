@@ -50,8 +50,10 @@
 .quotation {
 
     padding: 235px 0 163px 0;
-    background: url(../images/dest/about/man.png) left/auto 100% no-repeat;
+    // background: url(../images/dest/about/man.png) left/auto 100% no-repeat;
+    background: url(../images/dest/about/2.png) center / cover no-repeat, url(../images/dest/about/man.png) left/auto 100% no-repeat;
     background-color: rgb(35, 71, 126);
+    
     // .quotation__item
     
     &__row{
