@@ -1,10 +1,12 @@
 .slider-done {
-    position: relative;
+    
     padding: 100px 0 180px 0;
     & .title-36{
         margin-bottom: 60px;
     }
-    
+    & .container{
+        position: relative;
+    }
 }
 
 
@@ -105,7 +107,7 @@
 .slider-done__buttons{
 
     position: absolute;
-    top: 120px;
+    top: 5px;
     right: 0;
     .swiper-button-prev {
         
@@ -118,7 +120,7 @@
         // top: 11.5%;
         // left: 88%;
         position: relative;
-        top: 16px;
+        top: 16.5px;
         left: -76px;
 
         &:after{

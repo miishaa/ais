@@ -246,6 +246,10 @@
 
 @media (max-width: 767px){
 
+    .slider-done__buttons{
+        display: none;
+    }
+
     body.lock{
         overflow: hidden;
     }
@@ -347,7 +351,10 @@
         
         & a{
             font-size: 20px;
-            
+            border-bottom: 1px solid black;
+            &:hover{
+                border-bottom: 1px solid #3277df;
+            }
         }
 
         & li{
@@ -355,7 +362,7 @@
 
             & .header__link--dark,
             & .header__link--active{
-                padding: 0 0 0 25px;
+                padding: 0;
             }
         }
     }
@@ -366,6 +373,10 @@
         background-color: #788BA8;
         z-index: 11;
         padding: 14px 0;
+
+        & .header__link{
+            padding: 0;
+        }
     }
     .header--static{
         position: fixed; 
