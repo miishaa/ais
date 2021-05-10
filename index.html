@@ -9,12 +9,16 @@
 </head>
 <body>
     <div class="wrapper">
+
         <div class="header">
             <div class="header__row container">
                 <div class="header__logo">
                     <a href="./index.html">
-                        <img src="./images/dest/logo.svg" alt="logo">
+                        <img src="./images/dest/main/logo.svg" alt="logo">
                     </a>
+                </div>
+                <div class="header__burger">
+                    <span></span>
                 </div>
                 <nav class="header__nav">
                     <ul class="header__list">
@@ -22,24 +26,25 @@
                             <a class="header__link" href="./services.html">Наши услуги</a>
                         </li>
                         <li>
-                            <a class="header__link" href="">Выполненные проекты</a>
+                            <a class="header__link" href="./subjects.html">Выполненные проекты</a>
                         </li>
                         <li>
                             <a class="header__link" href="./about.html">О компании</a>
                         </li>
                         <li>
-                            <a class="header__link" href="">Новости</a>
+                            <a class="header__link" href="./news.html">Новости</a>
                         </li>
                         <li>
-                            <a class="header__link" href="">Контакты</a>
+                            <a class="header__link" href="./contacts.html">Контакты</a>
                         </li>
                     </ul>
                 </nav>
                 <div class="header__tel">
-                    <a href="tel:+380663455775">(066) 345 57 75</a>
+                    <a href="tel:+380663455775" class="header__call" >(066) 345 57 75</a>
                 </div>
             </div>
         </div>
+
         <section class="main">
             <div class="container">
                 <div class="main__row col-50">
@@ -101,7 +106,7 @@
             <div class="container">
                 <h3 class="title-36">Наши услуги</h3>
                 <div class="services__row">
-                    <div class="services__item col-25">
+                    <div class="services__item">
                         <div class="services__icon">
                             <img src="./images/dest/icon/services/1.svg" alt="">
                         </div>
@@ -114,7 +119,7 @@
                             в эксплуатацию
                         </p>
                     </div>
-                    <div class="services__item col-25">
+                    <div class="services__item">
                         <div class="services__icon">
                             <img src="./images/dest/icon/services/2.svg" alt="">
                         </div>
@@ -125,7 +130,7 @@
                             Производим ремонтные работы любой сложности на любой стадии
                         </p>
                     </div>
-                    <div class="services__item col-25">
+                    <div class="services__item">
                         <div class="services__icon">
                             <img src="./images/dest/icon/services/3.svg" alt="">
                         </div>
@@ -136,7 +141,7 @@
                             Реконструкция жилых, производственных, помещений под бизнес
                         </p>
                     </div>
-                    <div class="services__item col-25">
+                    <div class="services__item">
                         <div class="services__icon">
                             <img src="./images/dest/icon/services/4.svg" alt="">
                         </div>
@@ -154,25 +159,25 @@
         <section class="done">
             <div class="container">
                 <div class="done__row">
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">16 лет</div>
                         <div class="done__subtitle">
                             На строительном рынке
                         </div>
                     </div>
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">15+</div>
                         <div class="done__subtitle">
                             Успешно завершенных крупных проектов
                         </div>
                     </div>
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">100+</div>
                         <div class="done__subtitle">
                             Высококвалифицированных специалистов
                         </div>
                     </div>
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">12 345</div>
                         <div class="done__subtitle">
                             кв. м. построено и отреставрировано нашей компанией
@@ -184,20 +189,22 @@
 
         <div class="slider-done container">
 
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            
+            <div class="slider-done__buttons">
+                <div class="swiper-button-prev--mode swiper-button-prev"></div>
+                <div class="swiper-button-next--mode swiper-button-next"></div>
+            </div>
+
             <h3 class="title-36">
                 Выполненные проекты
             </h3>
             
             <!-- Slider main container -->
-            <div class="swiper-container">
+            <div class="slider-done-slider swiper-container">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                 <!-- Slides -->
-                <div class="swiper-slide slide_1">
-                    <dev class="swiper-slide__col">
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/1.jpg" alt="">
                         </div>
@@ -217,50 +224,56 @@
                             строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
-                    <dev class="swiper-slide__col">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/2.jpg" alt="">
                         </div>
                         <div class="swiper-container__title title-24">
-                            Капитальный ремонт 10-го детского интерната
+                            Ремонт Краматорской городской больницы №1
                         </div>
                         <div class="swiper-container__elements">
                             <div class="swiper-container__elements-1">
-                                Школа
+                                Городская больница
                             </div>
                             <div class="swiper-container__elements-2">
-                                Ремонт
+                                Рекострукция
                             </div>
                         </div>
                         <div class="swiper-container__text">
-                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности 
+                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности : 
+                            строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
-                    <dev class="swiper-slide__col">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/3.jpg" alt="">
                         </div>
                         <div class="swiper-container__title title-24">
-                            Облагораживание террирории гор. парка
+                            Ремонт Краматорской городской больницы №1
                         </div>
                         <div class="swiper-container__elements">
                             <div class="swiper-container__elements-1">
-                                Центральный парк
+                                Городская больница
                             </div>
                             <div class="swiper-container__elements-2">
-                                Облагораживание
+                                Рекострукция
                             </div>
                         </div>
                         <div class="swiper-container__text">
-                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности 
+                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности : 
+                            строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
+                    </a>
                 </div>
-                <div class="swiper-slide slide_1">
-                    <dev class="swiper-slide__col">
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/1.jpg" alt="">
                         </div>
@@ -280,50 +293,56 @@
                             строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
-                    <dev class="swiper-slide__col">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/2.jpg" alt="">
                         </div>
                         <div class="swiper-container__title title-24">
-                            Капитальный ремонт 10-го детского интерната
+                            Ремонт Краматорской городской больницы №1
                         </div>
                         <div class="swiper-container__elements">
                             <div class="swiper-container__elements-1">
-                                Школа
+                                Городская больница
                             </div>
                             <div class="swiper-container__elements-2">
-                                Ремонт
+                                Рекострукция
                             </div>
                         </div>
                         <div class="swiper-container__text">
-                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности 
+                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности : 
+                            строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
-                    <dev class="swiper-slide__col">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/3.jpg" alt="">
                         </div>
                         <div class="swiper-container__title title-24">
-                            Облагораживание террирории гор. парка
+                            Ремонт Краматорской городской больницы №1
                         </div>
                         <div class="swiper-container__elements">
                             <div class="swiper-container__elements-1">
-                                Центральный парк
+                                Городская больница
                             </div>
                             <div class="swiper-container__elements-2">
-                                Облагораживание
+                                Рекострукция
                             </div>
                         </div>
                         <div class="swiper-container__text">
-                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности 
+                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности : 
+                            строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
+                    </a>
                 </div>
-                <div class="swiper-slide slide_1">
-                    <dev class="swiper-slide__col">
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/1.jpg" alt="">
                         </div>
@@ -343,55 +362,64 @@
                             строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
-                    <dev class="swiper-slide__col">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/2.jpg" alt="">
                         </div>
                         <div class="swiper-container__title title-24">
-                            Капитальный ремонт 10-го детского интерната
+                            Ремонт Краматорской городской больницы №1
                         </div>
                         <div class="swiper-container__elements">
                             <div class="swiper-container__elements-1">
-                                Школа
+                                Городская больница
                             </div>
                             <div class="swiper-container__elements-2">
-                                Ремонт
+                                Рекострукция
                             </div>
                         </div>
                         <div class="swiper-container__text">
-                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности 
+                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности : 
+                            строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
-                    <dev class="swiper-slide__col">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./item.html" class="swiper-slide__col">
                         <div class="swiper-container__img">
                             <img src="./images/dest/slider/3.jpg" alt="">
                         </div>
                         <div class="swiper-container__title title-24">
-                            Облагораживание террирории гор. парка
+                            Ремонт Краматорской городской больницы №1
                         </div>
                         <div class="swiper-container__elements">
                             <div class="swiper-container__elements-1">
-                                Центральный парк
+                                Городская больница
                             </div>
                             <div class="swiper-container__elements-2">
-                                Облагораживание
+                                Рекострукция
                             </div>
                         </div>
                         <div class="swiper-container__text">
-                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности 
+                            Компания  ООО "АвтоИнтерСтрой» была создана в 2005 году, как многопрофильная компания, объединив в себе следующие сферы деятельности : 
+                            строительство, продажи активов  и услуг в сфере строительства и продаж. 
                         </div>
                         
-                    </dev>
+                    </a>
                 </div>
-            </div>    
-            </div>        
+                
+                
+            </div>
+            </div>
 
             <div class="slider-done__btn ">
-                <a class="btn" href="">Все проекты</a>
+                <a class="btn" href="./subjects.html">Все проекты</a>
             </div>
         </div>
+
         <footer class="footer">
             <div class="container">
                 <div class="footer__row">

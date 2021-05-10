@@ -1,0 +1,148 @@
+.item {
+    padding: 90px 0 50px 0;
+
+
+    .swiper-button-prev {
+
+        
+        background: url(../images/dest/slider/icon/prev.svg) center no-repeat;
+        background-color: rgba(0, 0, 0, .6);
+        width: 55px;
+        height: 55px;
+        left: 0%;
+        &:hover{
+            background-color: rgba(0, 0, 0, .8);
+        }
+        
+    
+        &:after{
+            font-size: 0;
+        }
+           
+    }
+    .swiper-button-next {
+
+        background: url(../images/dest/slider/icon/next.svg) center no-repeat;
+        background-color: rgba(0, 0, 0, .6);
+        width: 55px;
+        height: 55px;
+        right: 0%;
+        &:hover{
+            background-color: rgba(0, 0, 0, .8);
+        }
+
+        &:after{
+            font-size: 0;
+        }
+    }
+    // .item__swiper
+
+    &__swiper {
+        margin-bottom: 100px;
+    }
+
+    // .item__wrapper
+
+    &__wrapper {
+    }
+
+    // .item__slide
+
+    &__slide {
+        height: 595px;
+
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    // .item__row
+
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -65px;
+
+        & > *{
+            padding: 0 65px;
+        }
+    }
+
+    // .item__info
+
+    &__info {
+        flex: 1 1 60%;
+        min-width: 600px;
+    }
+
+    // .item__title
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    // .item__text
+
+    &__text {
+
+        p{
+            & + p{
+                margin-top: 20px;
+            }
+        }
+    }
+
+    // .item__infobox
+
+    &__infobox {
+        flex: 1 0 440px;
+        align-self: center;
+        color: #788BA8;
+
+        .infobox__title {
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+
+    
+}
+
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+
+.title-36 {
+}
+.infobox {
+    padding: 60px 15px 70px;
+    background-color: #F1F5FD;
+    &__elements{
+        margin-left: 50px;
+
+        div{
+            & + div{
+                margin-top: 15px;
+            }
+        }
+    }
+}
+.title-18 {
+    font-size: 18px;
+}
+.calendar-element {
+    &::before{
+        content: "";
+        background-image: url(../images/dest/item/icon/calendar.svg);
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        right: 10px;
+        top: 4px;
+        position: relative;
+    }
+}

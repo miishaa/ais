@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="wrapper">
+
         <div class="header--static">
             <div class="header__row container">
                 <div class="header__logo">
@@ -16,22 +17,25 @@
                         <img src="./images/dest/logo2.svg" alt="logo">
                     </a>
                 </div>
+                <div class="header__burger">
+                    <span></span>
+                </div>
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li>
                             <a class="header__link--dark" href="./services.html">Наши услуги</a>
                         </li>
                         <li>
-                            <a class="header__link--dark" href="">Выполненные проекты</a>
+                            <a class="header__link--dark" href="./subjects.html">Выполненные проекты</a>
                         </li>
                         <li>
-                            <a class="header__link--dark" href="./about.html">О компании</a>
+                            <a class="header__link--active" href="./about.html">О компании</a>
                         </li>
                         <li>
-                            <a class="header__link--dark" href="">Новости</a>
+                            <a class="header__link--dark" href="./news.html">Новости</a>
                         </li>
                         <li>
-                            <a class="header__link--dark" href="">Контакты</a>
+                            <a class="header__link--dark" href="./contacts.html">Контакты</a>
                         </li>
                     </ul>
                 </nav>
@@ -43,7 +47,7 @@
 
         <div class="navigation">
             <div class="container">
-                <a href="./index.html" class="navigation__item" >Главная</a> <a href="" class="navigation__item--active">О компании</a>
+                <a href="./index.html" class="navigation__item" >Главная</a> <span class="navigation__item--active">О компании</span>
             </div>
         </div>
 
@@ -86,9 +90,10 @@
                 </div>
             </div>
         </section>
+
         <section class="partners">
             <div class="container">
-                <h3 class="title-36">Наши партреры</h3>
+                <h3 class="title-36">Наши партнеры</h3>
                 <div class="partners__row">
                     <div class="partners__item">
                         <img src="./images/dest/about/partners/1.svg" alt="">
@@ -118,25 +123,25 @@
         <section class="done">
             <div class="container">
                 <div class="done__row">
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">16 лет</div>
                         <div class="done__subtitle">
                             На строительном рынке
                         </div>
                     </div>
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">15+</div>
                         <div class="done__subtitle">
                             Успешно завершенных крупных проектов
                         </div>
                     </div>
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">100+</div>
                         <div class="done__subtitle">
                             Высококвалифицированных специалистов
                         </div>
                     </div>
-                    <div class="done__item col-25">
+                    <div class="done__item">
                         <div class="done__title">12 345</div>
                         <div class="done__subtitle">
                             кв. м. построено и отреставрировано нашей компанией
@@ -192,5 +197,6 @@
         </footer>
 
     </div>
+<script src="js/app.min.js"></script>
 </body>
 </html>

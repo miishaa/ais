@@ -49,60 +49,44 @@
 .object {
     background-color: #F1F5FD;
     padding: 140px 0 140px 0;
+   
 
+    &__row{
+        display: flex;
+        margin: 0 -15px;
+        flex-wrap: wrap;
+    }
+
+    &__item{
+        flex: 1 1 33.3%;
+        padding: 0 15px;
+        margin-bottom: 40px;
+
+        a{
+            color: #222222;
+        }
+    }
+
+    &__img{
+        margin-bottom: 50px;
+        height: 300px;
+
+        & img{
+            width: 100%;
+            height: 100%;
+            object-position: center;
+            object-fit: cover;
+        }
+    }
+    &__title{
+        margin-bottom: 20px;
+    }
     .title-36{
         margin-bottom: 60px;
         text-align: center;
     }
-
-    .swiper-slide {
-
-
-		// .swiper-slide__col
-
-		&__col {
-		}
-}
 }
 
-.slide {
 
-		// .slide_1
-
-		&_1 {
-		}
-}
-.swiper-container {
-
-		// .swiper-container__img
-
-		&__img {
-		}
-
-		// .swiper-container__title
-
-		&__title {
-		}
-
-		// .swiper-container__elements
-
-		&__elements {
-		}
-
-		// .swiper-container__elements-1
-
-		&__elements-1 {
-		}
-
-		// .swiper-container__elements-2
-
-		&__elements-2 {
-		}
-
-		// .swiper-container__text
-
-		&__text {
-		}
-}
 
 
