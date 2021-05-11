@@ -8,7 +8,7 @@ const swiper = new Swiper('.slider-done-slider', {
    // Responsive breakpoints
    breakpoints: {
     // when window width is >= 320px
-    400: {
+    0: {
       slidesPerView: 1,
       spaceBetween: 20
     },
