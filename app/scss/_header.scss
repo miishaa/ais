@@ -238,6 +238,15 @@
 
 
 @media (max-width: 1080px){
+
+    .info__item:last-child{
+        padding-left: 0;
+    }
+
+    .info__item:first-child{
+        padding-right: 10px;
+    }
+
     .header--static .header__link, .header__link--active, .header__link--dark{
         padding: 15px 15px;
     }
@@ -257,6 +266,8 @@
 
 
 @media (max-width: 1050px){
+
+    
     .header__link, .header__link--active, .header__link--dark{
         padding: 15px 15px;
     }
@@ -312,6 +323,50 @@
 }
 
 @media (max-width: 1000px){
+
+    div .info__text {
+        max-width: 1000px;
+    }
+
+    h2.title-45{
+        font-size: 36px;
+    }
+
+    section.info {
+        padding: 10px 0 50px 0;
+        background-position: 0% 0%;
+    }
+
+    div.form__subtitle {
+        max-width: 1000px;
+        margin: 0 auto 20px;
+    }
+
+    .form .slider-done__btn {
+        margin-top: 20px;
+    }
+
+    div.info__item:first-child {
+        margin: 10px auto;
+        text-align: center;
+        padding: 0;
+        flex: 1 1 100%;
+        margin-left: 0;
+
+        div .title-24{
+            text-align: center;
+        }
+    }
+
+    .info__item:last-child{
+        padding-left: 70px;
+        flex: 1 1 100%;
+    }
+
+    div.info__row {
+        flex-wrap: wrap;    
+        margin: 0;
+    }
 
     div.item__info {
         min-width: 0px;
@@ -445,6 +500,11 @@
     }
 }
 @media (max-width: 810px){
+
+
+    .info__item:last-child {
+        padding: 0;
+    }
 
     section.news .center {
         margin-top: 20px;
@@ -822,6 +882,14 @@
         }
     }
 }
+@media (max-width: 505px){
+    h3.about__title{
+        text-align: center;
+    }
+
+}
+
+
 @media (max-width: 500px){
 
     div.center ul.pagination li a {
@@ -836,12 +904,55 @@
 
 @media (max-width: 450px){
 
+    
+
     div.quotation__item::after {
         top: -23%;
         right: 40%;
     }
 }
 @media (max-width: 420px){
+
+
+    div .main__item::before {
+        content: "";
+        position: absolute;
+        background: url(../images/dest/icon/ul.svg) center / cover no-repeat;
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        top: -9px;
+        left: -50px;
+    }
+
+    iframe{
+        height: 200px;
+    }
+
+    div.info__item:first-child {
+        margin: 10px auto 20px;
+    }
+
+    div.form {
+        padding: 20px 15px;
+    }
+
+    div.info__schedule {
+        margin-bottom: 10px;
+    }
+
+    div.info__item:first-child div .title-24 {
+        margin-bottom: 0;
+    }
+
+    div .info__text {
+        margin-bottom: 10px;
+    }
+
+    h2.title-45 {
+        font-size: 25px;
+        line-height: 30px;
+    }
 
     h3.title-36{
         font-size: 25px;
@@ -879,8 +990,9 @@
         font-size: 12px;
     }
 
-    .main__title{
-        font-size: 23px;
+    .main__title {
+        font-size: 26px;
+        line-height: 50px;
     }
 
     .main__item{
