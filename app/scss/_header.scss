@@ -272,7 +272,6 @@
         padding: 15px 15px;
     }
     .projects__item:nth-child(1),
-    .projects__item:nth-child(3),
     .projects__item:nth-child(4){
         display: none;
         
@@ -324,6 +323,17 @@
 
 @media (max-width: 1000px){
 
+    div .team__photo {
+        height: 500px;
+        max-width: 100%;
+    }
+
+    div.team__quotation{
+        position: static;
+        max-width: 100%;
+        padding: 50px 57px;
+    }
+
     div .info__text {
         max-width: 1000px;
     }
@@ -333,7 +343,7 @@
     }
 
     section.info {
-        padding: 10px 0 50px 0;
+        padding: 20px 0;
         background-position: 0% 0%;
     }
 
@@ -538,6 +548,10 @@
 
 @media (max-width: 767px){
 
+    div .partners__item{
+        flex: 1 1 50%;
+    }
+
 
     .header__link, .header__link--active, .header__link--dark{
         display: inline;
@@ -726,6 +740,11 @@
 
 @media (max-width: 650px){
 
+    div .team__photo {
+        height: 300px;
+        
+    }
+
     div.bignews__inner {
         display: block;
     }
@@ -912,6 +931,12 @@
     }
 }
 @media (max-width: 420px){
+
+
+    section.feedback {
+        
+        padding: 40px 0 40px 0;
+    }
 
 
     div .main__item::before {
