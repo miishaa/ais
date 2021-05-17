@@ -323,6 +323,7 @@
 
 @media (max-width: 1000px){
 
+
     div .team__photo {
         height: 500px;
         max-width: 100%;
@@ -357,6 +358,7 @@
     }
 
     div.info__item:first-child {
+        margin-left: 0;
         margin: 10px auto;
         text-align: center;
         padding: 0;
@@ -369,7 +371,7 @@
     }
 
     .info__item:last-child{
-        padding-left: 70px;
+        padding-left: 0px;
         flex: 1 1 100%;
     }
 
@@ -494,6 +496,10 @@
     }
 }
 @media (max-width: 840px){
+
+    section.feedback {
+        padding: 10px 0;
+    }
 
     div.slider-done{
         padding: 40px 0 40px 0;
