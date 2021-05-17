@@ -26,6 +26,10 @@
     // .about__text
 
     &__text {
+
+        & + .about__text{
+            margin-top: 15px;
+        }
     }
 
     // .about__img
@@ -43,7 +47,7 @@
             content: "";
             width: 570px;
             height: 485px;
-            border: 17px #f1f5fd solid;
+            border: 5px #f1f5fd solid;
             display: inline-block;
             position: absolute;
             top: -46px;
@@ -119,7 +123,7 @@
     // .partners__item
 
     &__item {
-        flex: 1 1 20em;
+        flex: 1 1 25%;
         padding: 0 25px;
         margin-bottom: 65px;
     }
@@ -132,4 +136,91 @@
 
 
 
+.services--about{
 
+    margin-top: 100px;
+
+    & .title-36{
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .services__title{
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .services__number{
+        position: relative;
+        left: -32px;
+        top: -84px;
+        z-index: -1;
+    }
+
+    .services__icon {
+        height: 60px;
+        position: relative;
+        top: 0;
+        right: -31px;
+    }
+    .services__item{
+        margin-top: 110px;
+    }
+    .services__icon img {
+        height: inherit;
+    }
+}
+
+@media (max-width: 875px){
+    .services--about .services__item{
+        margin-top: 60px;
+    }
+    .services--about{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 810px){
+    .services--about{
+        margin-top: 0px;
+    }
+}
+
+.team {
+
+    padding: 100px 0 50px;
+
+    & .container {
+        position: relative;
+    }
+
+    // .team__photo
+    .title-24 {
+        margin-bottom: 10px;
+    }
+    &__photo {
+        height: 646px;
+        max-width: 944px;
+
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    // .team__quotation
+
+    &__quotation {
+        background-color: #F1F5FD;
+        max-width: 460px;
+        padding: 100px 57px;
+        position: absolute;
+        top: 400px;
+        right: 20px;
+    }
+}
+.container {
+}
+.title-24 {
+}
