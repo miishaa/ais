@@ -1,6 +1,6 @@
 .about {
 
-    padding: 200px 0 150px 0;
+    padding: 162px 0 161px 0;
 
     // .about__row
 
@@ -35,7 +35,7 @@
     // .about__img
 
     &__image {
-        height: 402px;
+        height: 414px;
         & img{
             width: 100%;
             height: 100%;
@@ -62,7 +62,7 @@
 
     padding: 235px 0 163px 0;
     // background: url(../images/dest/about/man.png) left/auto 100% no-repeat;
-    background: url(../images/dest/about/2.png) center / cover no-repeat, url(../images/dest/about/man.png) 40% 50%/auto 100% no-repeat;
+    background: url(../images/dest/about/2.png) center / cover no-repeat, url(../images/dest/about/man.png) left/auto 100% no-repeat;
     background-color: rgb(35, 71, 126);
     
     // .quotation__item
@@ -109,7 +109,7 @@
 }
 
 .partners {
-    padding: 150px 0 85px 0;
+    padding: 150px 0 63px 0;
 
     // .partners__row
 
@@ -138,16 +138,20 @@
 
 .services--about{
 
-    margin-top: 100px;
+    margin-top: 118px;
+    margin-bottom: -20px;
 
     & .title-36{
         max-width: 640px;
         margin: 0 auto;
+        margin-bottom: 90px;
+
     }
 
     .services__title{
         font-size: 24px;
         margin-bottom: 10px;
+       
     }
     .services__number{
         position: relative;
@@ -163,7 +167,7 @@
         right: -31px;
     }
     .services__item{
-        margin-top: 110px;
+        margin-bottom: 100px;
     }
     .services__icon img {
         height: inherit;
@@ -172,7 +176,8 @@
 
 @media (max-width: 875px){
     .services--about .services__item{
-        margin-top: 60px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
     .services--about{
         margin-top: 30px;
@@ -187,7 +192,7 @@
 
 .team {
 
-    padding: 100px 0 50px;
+    padding: 120px 0 72px;
 
     & .container {
         position: relative;
@@ -214,11 +219,12 @@
     &__quotation {
         background-color: #F1F5FD;
         max-width: 460px;
-        padding: 100px 57px;
+        padding: 82px 57px;
         position: absolute;
-        top: 400px;
-        right: 20px;
+        top: 410px;
+        right: 11px;
     }
+
 }
 .container {
 }

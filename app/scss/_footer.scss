@@ -13,19 +13,39 @@
 
     // .footer__col
 
-    &__col {
-        flex: 1 1 100%;
+    // &__col {
+    //     flex: 1 1 100%;
+    //     padding: 0 45px;
+    //     color: #788BA8;
+    //     & a{
+    //         color: #788BA8;
+    //     }
+    // }
+
+    &__col:nth-child(2) {
+        flex: 1 1 30%;
         padding: 0 45px;
         color: #788BA8;
         & a{
             color: #788BA8;
         }
     }
-    // &__col:first-child {
-    //     justify-self: ;
-    // }
 
-    // .footer__list
+    &__col:nth-child(3) {
+        flex: 1 1 30%;
+        padding: 0 45px;
+        color: #788BA8;
+        & a{
+            color: #788BA8;
+        }
+    }
+
+    &__col:first-child {
+        flex: 1 1 40%;
+        padding: 0 45px;
+        color: #788BA8;
+    }
+    
 
     &__list {
 
