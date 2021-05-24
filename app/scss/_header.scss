@@ -347,6 +347,10 @@
 
 @media (max-width: 1000px){
 
+    h2.info__title{
+        max-width: 100%;
+    }
+
 
     div .team__photo {
         height: 500px;
@@ -396,6 +400,7 @@
 
     div.form{
         max-width: 100%;
+        margin-left: 0;
     }
 
     div.info__item:last-child{
