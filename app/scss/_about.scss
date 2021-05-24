@@ -64,6 +64,7 @@
     // background: url(../images/dest/about/man.png) left/auto 100% no-repeat;
     background: url(../images/dest/about/2.png) center / cover no-repeat, url(../images/dest/about/man.png) left/auto 100% no-repeat;
     background-color: rgb(35, 71, 126);
+
     
     // .quotation__item
     
@@ -105,6 +106,14 @@
         font-style: italic;
         text-align: center;
 
+    }
+}
+
+@media (min-width: 1440px){
+    section.quotation{
+        background: url(../images/dest/about/2.png) center / cover no-repeat, url(../images/dest/about/man.png) 25%/auto 100% no-repeat;
+        padding: 235px 0 163px 0;
+        background-color: rgb(35, 71, 126);
     }
 }
 
